@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <title>Задание</title>
+        <meta charset="UTF-8">
+
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+    </head>
+        
+    <body>
+        <h1>Калькулятор стоимости заказа</h1>
+
+
+        <div id="result"></div>
+            <form>
+                <input name="field1" type="text" pattern="^[1-9][0-9]*$" placeholder="Введите количество">
+                <select name="select1">
+                    <option value="v1">Кот Шотландской породы(30000 руб)</option>
+                    <option value="v2">Кот Британской породы(50000 руб)</option>
+                    <option value="v3">Кот Сибирской породы(40000 руб)</option>
+                </select>
+                <button id="button1" onclick="return click1();">OK</button>
+            </form>
+
+        <!-- Подвал сайта -->
+        <footer>
+            <p>&copy; Хохлова Елизавета</p>
+        </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="JS.js"></script>
+
+</body>
+
